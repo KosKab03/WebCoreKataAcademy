@@ -1,0 +1,50 @@
+.swiper-pagination-brend,
+.swiper-pagination-type,
+.swiper-pagination-service {
+  display: flex;
+  justify-content: center;
+  bottom: 0 !important;
+  --swiper-theme-color: #b5b6bc;
+}
+
+.menu-background {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  transition: opacity 0.5s linear;
+  z-index: 9;
+}
+.menu-background:nth-child(2) {
+  z-index: 10;
+}
+.menu-background:nth-child(3) {
+  z-index: 10;
+}
+
+a {
+  text-decoration: none;
+  color: #1b1c21;
+}
+
+.container {
+  padding: 0;
+  margin: 0 16px;
+}
+
+.section__nav {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.hidden-modal {
+  opacity: 0;
+  z-index: -1 !important;
+}
+
+.rotation-svg {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,24 @@
+$color1: #7e7e82;
+$color2: #1b1c21;
+$color3: #ffffff;
+$color4: #eaeaea;
+$color5: #f8f8f8;
+
+.section__nav__item {
+   position: relative;
+   display: flex;
+   height: 160px;
+   padding: 16px;
+ 
+   border: 1px solid $color4;
+   border-radius: 6px;
+ 
+   background-color: $color3;
+   
+ }
+ 
+ .nav__item__link {
+   position: absolute;
+   right: 16px;
+   bottom: 16px;
+ }

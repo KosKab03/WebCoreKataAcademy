@@ -1,0 +1,21 @@
+$color1: #7e7e82;
+$color2: #1b1c21;
+$color3: #ffffff;
+$color4: #eaeaea;
+$color5: #f8f8f8;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+
+  padding: 4px;
+  padding-bottom: 41px;
+  align-items: center;
+  color: $color1;
+
+  & p {
+    text-align: center;
+  }
+}

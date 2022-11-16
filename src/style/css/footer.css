@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 4px;
+  padding-bottom: 41px;
+  align-items: center;
+  color: #7e7e82;
+}
+.footer p {
+  text-align: center;
+}

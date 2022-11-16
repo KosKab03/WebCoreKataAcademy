@@ -1,0 +1,122 @@
+.main {
+  position: relative;
+  padding-top: 20px;
+}
+.main__title {
+  margin-bottom: 24px;
+  position: relative;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.main__title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -16px;
+  width: 4px;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+  background-color: #41f6d7;
+}
+.main__connection {
+  display: none;
+}
+.main__btn {
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  margin-top: 16px;
+  margin-left: 6px;
+  width: auto;
+  height: 24px;
+  font-size: 16px;
+}
+.main__btn svg {
+  position: relative;
+  top: 4px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  color: #7e7e82;
+}
+.nav::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 40px;
+  background: linear-gradient(-90deg, #f8f8f8, rgba(248, 248, 248, 0));
+}
+.nav__list {
+  padding-left: 16px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: flex-start;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
+  font-size: 16px;
+  overflow: scroll;
+}
+.nav__list li:nth-child(1) {
+  display: none;
+}
+.nav__list li:nth-child(5) {
+  display: none;
+}
+.nav__link {
+  display: block;
+  white-space: nowrap;
+  padding: 8px 9.3px 8px 16.54px;
+  border: 2px solid #f8f8f8;
+  border-radius: 6px;
+}
+.nav__link:hover {
+  background: rgb(255, 254, 254);
+}
+.nav__link:focus {
+  border: 2px solid #b8ffec;
+}
+
+.active {
+  border: 2px solid #b8ffec;
+  background-color: #ffffff;
+}
+
+.main__section-present {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 24px;
+}
+
+.section-present__info {
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  color: #1b1c21;
+}
+.section-present__image {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  height: 176px;
+  overflow: hidden;
+}
+
+.section__nav {
+  display: none;
+}
+
+.add-info,
+.add-info-one {
+  display: block;
+  margin-top: 20px;
+}
+
+.add-info-two {
+  display: inline;
+  margin-top: 20px;
+}

@@ -1,0 +1,98 @@
+.content {
+  position: relative;
+}
+.content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 100%;
+  background: linear-gradient(-90deg, #f8f8f8, rgba(248, 248, 248, 0.3568627451));
+  z-index: 1;
+}
+
+.section {
+  padding-bottom: 18px;
+  font-family: "TT Lakes", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: 320px;
+}
+.section__btn {
+  display: none;
+  gap: 16px;
+  text-align: center;
+  margin-top: 16px;
+  padding-left: 6px;
+  width: auto;
+  height: 24px;
+  font-size: 16px;
+}
+.section__btn svg {
+  position: relative;
+  top: 4px;
+  margin: 0 auto;
+}
+
+.swiper-wrapper {
+  margin-bottom: 16px;
+}
+.swiper-pagination-bullet {
+  background: var(--swiper-pagination-bullet-inactive-color, #dddddd) !important;
+}
+
+.header-new-section {
+  background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 98.61%);
+  padding: 16px 16px;
+  margin-bottom: 16px;
+  min-width: 320px;
+  color: #7e7e82;
+}
+
+.brand__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  height: 72px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.radio-slide {
+  text-align: center;
+}
+
+.logo-lenovo {
+  width: 108px;
+  height: 32px;
+}
+.logo-samsung {
+  width: 116px;
+  height: 38.52px;
+}
+.logo-apple {
+  width: 44px;
+  height: 44px;
+}
+.logo-bosch {
+  width: 128px;
+  height: 28.6px;
+}
+.logo-hp {
+  width: 52px;
+  height: 52px;
+}
+.logo-acer {
+  width: 94px;
+  height: 24px;
+}
+.logo-vs {
+  width: 128px;
+  height: 21px;
+}
+.logo-sony {
+  width: 128px;
+  height: 25.6px;
+}

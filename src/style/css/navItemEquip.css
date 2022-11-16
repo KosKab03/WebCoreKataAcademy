@@ -1,0 +1,15 @@
+.section__nav__item {
+  position: relative;
+  display: flex;
+  height: 160px;
+  padding: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.nav__item__link {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
